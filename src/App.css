@@ -1,0 +1,40 @@
+/* generalization */
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1 {
+    font-size: 36px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+.class1-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden; /* 添加此行以隐藏溢出内容 */
+  }
+  
+
